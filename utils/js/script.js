@@ -58,35 +58,39 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
             </div>
         </nav>
     `
-    
-footer.innerHTML += `<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    footer.innerHTML += `<nav class="navbar navbar-expand-lg nav-footer">
 <div class="collapse navbar-collapse container-fluid" id="navbarNav">
     <ul class="navbar-nav list-unstyled">
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#">
-                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo" width="200" height="200"
+            <a class="nav-link navbar-brand" href="https://www.whatsapp.com/">
+                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo" width="40" height="32"
                     class="d-inline-block align-text-top">
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#">
-                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo" width="30" height="24"
+            <a class="nav-link navbar-brand" href="https://www.instagram.com">
+                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo" width="40" height="32"
                     class="d-inline-block align-text-top">
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#">
-                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo" width="30" height="24"
+            <a class="nav-link navbar-brand" href="https://www.facebook.com">
+                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo" width="40" height="32"
                     class="d-inline-block align-text-top">
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#">
-                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo" width="30" height="24"
+            <a class="nav-link navbar-brand" href="https://discord.com">
+                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo" width="40" height="32"
                     class="d-inline-block align-text-top">
             </a>
         </li>
     </ul>
 </div>
-</nav>`
+</nav>
+<div class="rights">
+<p>&copy; Todos los derechos reservados al Grupo de Trabajo de Limay</p>
+<p>Integrantes: Juan Bautista Tosi Griedassov, Simon Raul Pero Bellido, Thiago Munguia, Juan Cruz Hardcastle, Valentino Pascuali</p></div>
+`
 }
