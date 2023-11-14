@@ -10,10 +10,22 @@
 </head>
 <body class="d-flex flex-column min-vh-100" onload="fillHeader('./', './../')">    <header id="header" ></header>
 
-    <section class="container">
-    </section>
+    <main class="contact-form">
+        <div class="form">
+            <label class="label" for="name">Nombre:</label>
+            <input class="input" type="text" id="name" name="name" required>
+      
+            <label class="label" for="email">Correo Electrónico:</label>
+            <input class="input" type="email" id="email" name="email" required>
+      
+            <label class="label" for="message">Mensaje:</label>
+            <textarea class="input" id="message" name="message" rows="4" required></textarea>
+      
+            <button class="button" type="submit">Enviar Mensaje</button>
+          </div>
+    </main>
 
-    <footer class="bg-dark text-light mt-auto" id="footer">
+    <footer class="bg-dark text-light mt-auto footer" id="footer">
         
     </footer>
     <script src="./../utils/js/script.js"></script>
