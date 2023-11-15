@@ -1,0 +1,326 @@
+[
+    {
+        "id": 1,
+        "name": "Procesador Intel Core i7",
+        "price": 299.99,
+        "stock": 50,
+        "imgUrl": "procesador_i7.jpg",
+        "alt": "Procesador Intel Core i7",
+        "category": "Procesadores (CPU)"
+    },
+    {
+        "id": 2,
+        "name": "Placa Base ASUS ROG Strix",
+        "price": 189.99,
+        "stock": 30,
+        "imgUrl": "placa_base_asus.jpg",
+        "alt": "Placa Base ASUS ROG Strix",
+        "category": "Tarjetas madre"
+    },
+    {
+        "id": 3,
+        "name": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+        "price": 699.99,
+        "stock": 20,
+        "imgUrl": "tarjeta_grafica_rtx3080.jpg",
+        "alt": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+        "category": "Tarjetas gráficas"
+    },
+    {
+        "id": 4,
+        "name": "Memoria RAM Corsair Vengeance LPX 16GB",
+        "price": 79.99,
+        "stock": 40,
+        "imgUrl": "memoria_ram_corsair.jpg",
+        "alt": "Memoria RAM Corsair Vengeance LPX 16GB",
+        "category": "Memoria RAM"
+    },
+    {
+        "id": 5,
+        "name": "Disco Duro Seagate Barracuda 2TB",
+        "price": 79.99,
+        "stock": 25,
+        "imgUrl": "disco_duro_seagate.jpg",
+        "alt": "Disco Duro Seagate Barracuda 2TB",
+        "category": "Discos duros (HDD y SSD)"
+    },
+    {
+        "id": 6,
+        "name": "SSD Samsung 970 EVO 500GB",
+        "price": 129.99,
+        "stock": 30,
+        "imgUrl": "ssd_samsung.jpg",
+        "alt": "SSD Samsung 970 EVO 500GB",
+        "category": "Unidades de estado sólido (SSD)"
+    },
+    {
+        "id": 7,
+        "name": "Fuente de Alimentación EVGA 750W",
+        "price": 89.99,
+        "stock": 15,
+        "imgUrl": "fuente_evga.jpg",
+        "alt": "Fuente de Alimentación EVGA 750W",
+        "category": "Fuentes de alimentación"
+    },
+    {
+        "id": 8,
+        "name": "Ventilador Cooler Master Hyper 212",
+        "price": 49.99,
+        "stock": 20,
+        "imgUrl": "ventilador_cooler_master.jpg",
+        "alt": "Ventilador Cooler Master Hyper 212",
+        "category": "Ventiladores y disipadores"
+    },
+    {
+        "id": 9,
+        "name": "Teclado mecánico Corsair K70",
+        "price": 129.99,
+        "stock": 35,
+        "imgUrl": "teclado_corsair.jpg",
+        "alt": "Teclado mecánico Corsair K70",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 10,
+        "name": "Ratón Logitech G502",
+        "price": 59.99,
+        "stock": 40,
+        "imgUrl": "raton_logitech.jpg",
+        "alt": "Ratón Logitech G502",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 11,
+        "name": "Monitor ASUS 27 pulgadas",
+        "price": 249.99,
+        "stock": 25,
+        "imgUrl": "monitor_asus.jpg",
+        "alt": "Monitor ASUS 27 pulgadas",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 12,
+        "name": "Soporte para Laptop AmazonBasics",
+        "price": 19.99,
+        "stock": 50,
+        "imgUrl": "soporte_laptop_amazonbasics.jpg",
+        "alt": "Soporte para Laptop AmazonBasics",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 13,
+        "name": "Cable HDMI de alta velocidad",
+        "price": 9.99,
+        "stock": 100,
+        "imgUrl": "cable_hdmi.jpg",
+        "alt": "Cable HDMI de alta velocidad",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 14,
+        "name": "Alfombrilla para Ratón SteelSeries QcK",
+        "price": 14.99,
+        "stock": 30,
+        "imgUrl": "alfombrilla_steelseries.jpg",
+        "alt": "Alfombrilla para Ratón SteelSeries QcK",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 15,
+        "name": "Disco Duro Externo WD Elements 1TB",
+        "price": 59.99,
+        "stock": 20,
+        "imgUrl": "disco_duro_externo_wd.jpg",
+        "alt": "Disco Duro Externo WD Elements 1TB",
+        "category": "Productos de Almacenamiento"
+    },
+    {
+        "id": 16,
+        "name": "Tarjeta de Memoria SanDisk 64GB",
+        "price": 19.99,
+        "stock": 50,
+        "imgUrl": "tarjeta_memoria_sandisk.jpg",
+        "alt": "Tarjeta de Memoria SanDisk 64GB",
+        "category": "Productos de Almacenamiento"
+    },
+    {
+        "id": 17,
+        "name": "Caja de herramientas para PC",
+        "price": 29.99,
+        "stock": 15,
+        "imgUrl": "caja_herramientas_pc.jpg",
+        "alt": "Caja de herramientas para PC",
+        "category": "Productos de Limpieza y Mantenimiento"
+    },
+    {
+        "id": 18,
+        "name": "Kit de limpieza para pantallas",
+        "price": 9.99,
+        "stock": 40,
+        "imgUrl": "kit_limpieza_pantallas.jpg",
+        "alt": "Kit de limpieza para pantallas",
+        "category": "Productos de Limpieza y Mantenimiento"
+    },
+    {
+        "id": 19,
+        "name": "Aire comprimido para limpieza",
+        "price": 14.99,
+        "stock": 25,
+        "imgUrl": "aire_comprimido_limpieza.jpg",
+        "alt": "Aire comprimido para limpieza",
+        "category": "Productos de Limpieza y Mantenimiento"
+    },
+    {
+        "id": 20,
+        "name": "Procesador AMD Ryzen 5",
+        "price": 199.99,
+        "stock": 35,
+        "imgUrl": "procesador_amd_ryzen.jpg",
+        "alt": "Procesador AMD Ryzen 5",
+        "category": "Procesadores (CPU)"
+    },
+    {
+        "id": 21,
+        "name": "Placa Base MSI B450 TOMAHAWK",
+        "price": 129.99,
+        "stock": 30,
+        "imgUrl": "placa_base_msi.jpg",
+        "alt": "Placa Base MSI B450 TOMAHAWK",
+        "category": "Tarjetas madre"
+    },
+    {
+        "id": 22,
+        "name": "Tarjeta Gráfica AMD Radeon RX 5700 XT",
+        "price": 349.99,
+        "stock": 15,
+        "imgUrl": "tarjeta_grafica_rx5700xt.jpg",
+        "alt": "Tarjeta Gráfica AMD Radeon RX 5700 XT",
+        "category": "Tarjetas gráficas"
+    },
+    {
+        "id": 23,
+        "name": "Memoria RAM G.SKILL Ripjaws V 32GB",
+        "price": 149.99,
+        "stock": 25,
+        "imgUrl": "memoria_ram_gskill.jpg",
+        "alt": "Memoria RAM G.SKILL Ripjaws V 32GB",
+        "category": "Memoria RAM"
+    },
+    {
+        "id": 24,
+        "name": "Disco Duro WD Blue 1TB",
+        "price": 49.99,
+        "stock": 40,
+        "imgUrl": "disco_duro_wd.jpg",
+        "alt": "Disco Duro WD Blue 1TB",
+        "category": "Discos duros (HDD y SSD)"
+    },
+    {
+        "id": 25,
+        "name": "SSD Crucial MX500 1TB",
+        "price": 129.99,
+        "stock": 20,
+        "imgUrl": "ssd_crucial.jpg",
+        "alt": "SSD Crucial MX500 1TB",
+        "category": "Unidades de estado sólido (SSD)"
+    },
+    {
+        "id": 26,
+        "name": "Fuente de Alimentación Corsair CX550M",
+        "price": 69.99,
+        "stock": 20,
+        "imgUrl": "fuente_corsair.jpg",
+        "alt": "Fuente de Alimentación Corsair CX550M",
+        "category": "Fuentes de alimentación"
+    },
+    {
+        "id": 27,
+        "name": "Ventilador NZXT Kraken X63",
+        "price": 149.99,
+        "stock": 15,
+        "imgUrl": "ventilador_nzxt.jpg",
+        "alt": "Ventilador NZXT Kraken X63",
+        "category": "Ventiladores y disipadores"
+    },
+    {
+        "id": 28,
+        "name": "Mousepad Razer Goliathus",
+        "price": 24.99,
+        "stock": 35,
+        "imgUrl": "mousepad_razer.jpg",
+        "alt": "Mousepad Razer Goliathus",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 29,
+        "name": "Webcam Logitech C920",
+        "price": 79.99,
+        "stock": 25,
+        "imgUrl": "webcam_logitech.jpg",
+        "alt": "Webcam Logitech C920",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 30,
+        "name": "Auriculares HyperX Cloud II",
+        "price": 99.99,
+        "stock": 30,
+        "imgUrl": "auriculares_hyperx.jpg",
+        "alt": "Auriculares HyperX Cloud II",
+        "category": "Dispositivos Periféricos"
+    },
+    {
+        "id": 31,
+        "name": "Hub USB Anker 7 Puertos",
+        "price": 29.99,
+        "stock": 40,
+        "imgUrl": "hub_usb_anker.jpg",
+        "alt": "Hub USB Anker 7 Puertos",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 32,
+        "name": "Lámpara LED para PC",
+        "price": 14.99,
+        "stock": 50,
+        "imgUrl": "lampara_led_pc.jpg",
+        "alt": "Lámpara LED para PC",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 33,
+        "name": "Almohadilla de Muñeca Ergonómica",
+        "price": 9.99,
+        "stock": 30,
+        "imgUrl": "almohadilla_muñeca.jpg",
+        "alt": "Almohadilla de Muñeca Ergonómica",
+        "category": "Accesorios para Computadoras"
+    },
+    {
+        "id": 34,
+        "name": "Disco Duro Externo Seagate Backup Plus 4TB",
+        "price": 119.99,
+        "stock": 20,
+        "imgUrl": "disco_duro_externo_seagate.jpg",
+        "alt": "Disco Duro Externo Seagate Backup Plus 4TB",
+        "category": "Productos de Almacenamiento"
+    },
+    {
+        "id": 35,
+        "name": "Tarjeta de Memoria Kingston Canvas Select 128GB",
+        "price": 29.99,
+        "stock": 40,
+        "imgUrl": "tarjeta_memoria_kingston.jpg",
+        "alt": "Tarjeta de Memoria Kingston Canvas Select 128GB",
+        "category": "Productos de Almacenamiento"
+    },
+    {
+        "id": 36,
+        "name": "Producto de Limpieza para Pantallas",
+        "price": 9.99,
+        "stock": 100,
+        "imgUrl": "limpieza_pantallas.jpg",
+        "alt": "Producto de Limpieza para Pantallas",
+        "category": "Productos de Limpieza y Mantenimiento"
+    }
+]
