@@ -16,23 +16,87 @@
 <body class="d-flex flex-column min-vh-100" onload="fillHeader('./pages/', './')">
     <header id="header"></header>
 
-    <main class="container">
+    <main class="main">
 
-        carrusel god aca
-
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./public/imagenes/indexImgs/indexCarrousel1.jpg" class="d-block w-100 imgCarrousel"
+                        alt="imagen de insumos tecnológicos">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./public/imagenes/indexImgs/indexCarrousel2.jpg" class="d-block w-100 imgCarrousel"
+                        alt="imagen de insumos tecnológicos">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./public/imagenes/indexImgs/indexCarrousel3.jpg" class="d-block w-100 imgCarrousel"
+                        alt="imagen de noteboks">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./public/imagenes/indexImgs/indexCarrousel4.jpg" class="d-block w-100 imgCarrousel"
+                        alt="imagen de insumos tecnológicos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <h1 class="dispay-3 h1 text">Bienvenido a GeekGrove: Tu <mark class="highlight">Destino</mark> para Insumos
             Informáticos</h1>
-        <h5 class="text h5">Descubre una amplia gama de componentes de hardware, periféricos y accesorios tecnológicos.</h5>
-
-        <!-- Destacados o Ofertas Especiales -->
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Ofertas Especiales</h2>
-                <!-- Contenido de ofertas especiales -->
+        <h5 class="text h5">Descubre una amplia gama de componentes de hardware, periféricos y accesorios tecnológicos.
+        </h5>
+<hr>
+        <h2>Ofertas Especiales</h2>
+        <div class="product-container">
+            <div class="product-card offer-product-1">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales1.png" alt="Oferta 1">
+                <h2>Procesador Intel Core i7</h2>
+                <p class="oldPrice">Precio viejo: $99.99</p>
+                <p>Precio nuevo: $79.99</p>
             </div>
-            <div class="col-md-6">
-                <h2>Lo Más Vendido</h2>
-                <!-- Contenido de productos más vendidos -->
+
+            <div class="product-card offer-product-2">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales2.png" alt="Oferta 2">
+                <h2>Tarjeta gráfica NVIDIA GeForce RTX 3080</h2>
+                <p class="oldPrice">Precio viejo: $79.99</p>
+                <p>Precio nuevo: $59.99</p>
+            </div>
+
+            <div class="product-card offer-product-3">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales3.png" alt="Oferta 3">
+                <h2>Tarjeta madre ASUS Prime Z590</h2>
+                <p class="oldPrice">Precio viejo: $129.99</p>
+                <p>Precio nuevo: $99.99</p>
+            </div>
+        </div>
+        <hr>
+        <h2>Productos Más Vendidos</h2>
+
+        <div class="product-container">
+            <div class="product-card best-seller-product-1">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales4.png" alt="Procesador Intel Core i9">
+                <h2>Procesador Intel Core i9</h2>
+                <p>Precio: $499.99</p>
+            </div>
+
+            <div class="product-card best-seller-product-2">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales5.png"
+                    alt="Tarjeta Gráfica NVIDIA GeForce RTX 3090">
+                <h2>Tarjeta Gráfica NVIDIA GeForce RTX 3090</h2>
+                <p>Precio: $799.99</p>
+            </div>
+
+            <div class="product-card best-seller-product-3">
+                <img class="product-image" src="./public/imagenes/indexImgs/indexSales6.png" alt="Unidad de Estado Sólido (SSD) Samsung 2TB">
+                <h2>SSD Samsung 970 EVO Plus 2TB</h2>
+                <p>Precio: $249.99</p>
             </div>
         </div>
     </main>
