@@ -41,34 +41,32 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
     `
 
     footer.innerHTML += `<nav class="navbar navbar-expand-lg nav-footer">
-<div class="collapse navbar-collapse container-fluid" id="navbarNav">
     <ul class="navbar-nav list-unstyled">
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.whatsapp.com/">
-                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.instagram.com">
-                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.facebook.com">
-                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="https://discord.com">
-                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+            <a class="nav-link navbar-brand footer-link" href="https://discord.com">
+                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
-    </ul>
-</div>
+        </ul>
 </nav>
 <div class="rights">
 <p>&copy; Todos los derechos reservados al Grupo de Trabajo de Limay</p>
@@ -78,7 +76,7 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
 
 function handleMenuClick(category) {
     // Fetch y procesamiento de productos
-    fetch('../../data.json')
+    fetch('../../products.json')
         .then(response => response.json())
         .then(data => {
             // Validar que la categoría seleccionada esté presente en el JSON
@@ -91,4 +89,33 @@ function handleMenuClick(category) {
             }
         })
         .catch(error => console.error('Error fetching data:', error));
+}
+
+function addToCart(id) {
+    fetch('./products.json')
+        .then(response => response.json())
+        .then(data => {
+            let allProducts = data.productos_tecnologicos.concat(data.componentes_hardware)
+            let selectedProduct = allProducts.find(product => product.id === id);
+            // Obtén el carrito actual desde localStorage
+            let currentCart = JSON.parse(localStorage.getItem('cart')) || []
+            // Verifica si el producto ya está en el carrito
+            let existingProduct = currentCart.find(product => product.id === selectedProduct.id)
+            // Compara si la cantidad en el carrito es igual o menor al stock del producto
+            if (existingProduct && existingProduct.quantity >= selectedProduct.stock) {
+                return;  // Detiene la ejecución si la cantidad alcanza o supera el stock máximo
+            }
+            if (existingProduct) {
+                existingProduct.quantity = (existingProduct.quantity || 1) + 1
+            } else {
+                // Si el producto no está en el carrito, agrégalo
+                // Crea un nuevo objeto sin el atributo 'stock'
+                let productToAdd = { ...selectedProduct }
+                delete productToAdd.stock
+                productToAdd.quantity = 1
+                currentCart.push(productToAdd)
+            }
+            localStorage.setItem('cart', JSON.stringify(currentCart))
+        })
+        .catch(error => console.error('Error fetching data:', error))
 }

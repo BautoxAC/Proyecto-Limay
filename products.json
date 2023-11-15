@@ -1,0 +1,213 @@
+{
+  "productos_tecnologicos": [
+    {
+      "name": "Teclado Mecánico Corsair K70",
+      "id": "PT001",
+      "category": "Peripheral Devices",
+      "price": 129.99,
+      "stock": 35,
+      "imgUrl": "teclado_corsair.jpg",
+      "alt": "Teclado mecánico Corsair K70"
+    },
+    {
+      "name": "Ratón Logitech G502",
+      "id": "PT002",
+      "category": "Peripheral Devices",
+      "price": 59.99,
+      "stock": 40,
+      "imgUrl": "raton_logitech.jpg",
+      "alt": "Ratón Logitech G502"
+    },
+    {
+      "name": "Monitor ASUS de 27 pulgadas",
+      "id": "PT003",
+      "category": "Peripheral Devices",
+      "price": 249.99,
+      "stock": 25,
+      "imgUrl": "monitor_asus.jpg",
+      "alt": "Monitor ASUS 27 pulgadas"
+    },
+    {
+      "name": "Soporte para Laptop AmazonBasics",
+      "id": "PT004",
+      "category": "Computer Accessories",
+      "price": 19.99,
+      "stock": 50,
+      "imgUrl": "soporte_laptop_amazonbasics.jpg",
+      "alt": "Soporte para Laptop AmazonBasics"
+    },
+    {
+      "name": "Cable HDMI de alta velocidad",
+      "id": "PT005",
+      "category": "Computer Accessories",
+      "price": 9.99,
+      "stock": 100,
+      "imgUrl": "cable_hdmi.jpg",
+      "alt": "Cable HDMI de alta velocidad"
+    },
+    {
+      "name": "Alfombrilla para Ratón SteelSeries QcK",
+      "id": "PT006",
+      "category": "Computer Accessories",
+      "price": 14.99,
+      "stock": 30,
+      "imgUrl": "alfombrilla_steelseries.jpg",
+      "alt": "Alfombrilla para Ratón SteelSeries QcK"
+    },
+    {
+      "name": "Disco Duro Externo WD Elements 1TB",
+      "id": "PT007",
+      "category": "Storage Products",
+      "price": 59.99,
+      "stock": 20,
+      "imgUrl": "disco_duro_externo_wd.jpg",
+      "alt": "Disco Duro Externo WD Elements 1TB"
+    },
+    {
+      "name": "Tarjeta de Memoria SanDisk 64GB",
+      "id": "PT008",
+      "category": "Storage Products",
+      "price": 19.99,
+      "stock": 50,
+      "imgUrl": "tarjeta_memoria_sandisk.jpg",
+      "alt": "Tarjeta de Memoria SanDisk 64GB"
+    },
+    {
+      "name": "Caja de herramientas para PC",
+      "id": "PT009",
+      "category": "Cleaning and Maintenance Products",
+      "price": 29.99,
+      "stock": 15,
+      "imgUrl": "caja_herramientas_pc.jpg",
+      "alt": "Caja de herramientas para PC"
+    },
+    {
+      "name": "Kit de limpieza para pantallas",
+      "id": "PT010",
+      "category": "Cleaning and Maintenance Products",
+      "price": 9.99,
+      "stock": 40,
+      "imgUrl": "kit_limpieza_pantallas.jpg",
+      "alt": "Kit de limpieza para pantallas"
+    },
+    {
+      "name": "Aire comprimido para limpieza",
+      "id": "PT011",
+      "category": "Cleaning and Maintenance Products",
+      "price": 14.99,
+      "stock": 25,
+      "imgUrl": "aire_comprimido_limpieza.jpg",
+      "alt": "Aire comprimido para limpieza"
+    }
+  ],
+  "componentes_hardware": [
+    {
+      "name": "Procesador Intel Core i7",
+      "id": "CH001",
+      "category": "Processors (CPU)",
+      "price": 79.99,
+      "stock": 10,
+      "imgUrl": "procesador_i7.jpg",
+      "alt": "Procesador Intel Core i7"
+    },
+    {
+      "name": "Tarjeta madre ASUS Prime Z590",
+      "id": "CH166",
+      "category": "Motherboards",
+      "price": 99.99,
+      "stock": 10,
+      "imgUrl": "../public/imagenes/indexImgs/indexSales3.png",
+      "alt": "Tarjeta madre ASUS Prime Z590"
+    },
+    {
+      "name": "Tarjeta Madre ASUS ROG Strix",
+      "id": "CH002",
+      "category": "Motherboards",
+      "price": 199.99,
+      "stock": 15,
+      "imgUrl": "placa_base_asus.jpg",
+      "alt": "Tarjeta Madre ASUS ROG Strix"
+    },
+    {
+      "name": "SSD Samsung 970 EVO Plus 2TB",
+      "id": "SSD001",
+      "category": "Solid State Drives (SSD)",
+      "price": 249.99,
+      "stock": 10,
+      "imgUrl": "ssd_samsung_970_evo_plus.jpg",
+      "alt": "SSD Samsung 970 EVO Plus 2TB"
+    },
+    {
+      "name": "Tarjeta Gráfica NVIDIA GeForce RTX 3090",
+      "id": "GPU001",
+      "category": "Graphics Cards",
+      "price": 799.99,
+      "stock": 5,
+      "imgUrl": "tarjeta_grafica_rtx3090.jpg",
+      "alt": "Tarjeta Gráfica NVIDIA GeForce RTX 3090"
+    },
+    {
+      "name": "Procesador Intel Core i9",
+      "id": "CPU001",
+      "category": "Processors (CPU)",
+      "price": 499.99,
+      "stock": 8,
+      "imgUrl": "procesador_i9.jpg",
+      "alt": "Procesador Intel Core i9"
+    },
+    {
+      "name": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+      "id": "CH003",
+      "category": "Graphics Cards",
+      "price": 59.99,
+      "stock": 5,
+      "imgUrl": "tarjeta_grafica_rtx3080.jpg",
+      "alt": "Tarjeta Gráfica NVIDIA GeForce RTX 3080"
+    },
+    {
+      "name": "Memoria RAM Corsair Vengeance 16GB",
+      "id": "CH004",
+      "category": "RAM",
+      "price": 89.99,
+      "stock": 25,
+      "imgUrl": "memoria_ram_corsair.jpg",
+      "alt": "Memoria RAM Corsair Vengeance 16GB"
+    },
+    {
+      "name": "Disco Duro SSD Samsung 500GB",
+      "id": "CH005",
+      "category": "Hard Drives (HDD and SSD)",
+      "price": 129.99,
+      "stock": 12,
+      "imgUrl": "ssd_samsung.jpg",
+      "alt": "Disco Duro SSD Samsung 500GB"
+    },
+    {
+      "name": "Fuente de Alimentación EVGA 750W",
+      "id": "CH006",
+      "category": "Power Supplies",
+      "price": 79.99,
+      "stock": 18,
+      "imgUrl": "fuente_evga.jpg",
+      "alt": "Fuente de Alimentación EVGA 750W"
+    },
+    {
+      "name": "Ventilador Cooler Master Hyper 212",
+      "id": "CH007",
+      "category": "Fans and Heatsinks",
+      "price": 49.99,
+      "stock": 20,
+      "imgUrl": "ventilador_cooler_master.jpg",
+      "alt": "Ventilador Cooler Master Hyper 212"
+    },
+    {
+      "name": "Unidad SSD Kingston 1TB",
+      "id": "CH008",
+      "category": "Solid State Drives (SSD)",
+      "price": 149.99,
+      "stock": 8,
+      "imgUrl": "ssd_kingston.jpg",
+      "alt": "Unidad SSD Kingston 1TB"
+    }
+  ]
+}
