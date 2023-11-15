@@ -12,31 +12,12 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-unstyled">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="${paginationLinkPrefix}products.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Componentes de Hardware
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Procesadores (CPU)</a></li>
-                                <li><a class="dropdown-item" href="#">Tarjetas madre (motherboards)</a></li>
-                                <li><a class="dropdown-item" href="#">Tarjetas gráficas</a></li>
-                                <li><a class="dropdown-item" href="#">Memoria RAM</a></li>
-                                <li><a class="dropdown-item" href="#">Discos duros (HDD y SSD)</a></li>
-                                <li><a class="dropdown-item" href="#">Unidades de estado sólido (SSD)</a></li>
-                                <li><a class="dropdown-item" href="#">Fuentes de alimentación</a></li>
-                                <li><a class="dropdown-item" href="#">Ventiladores y disipadores</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Productos Tecnológicos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Dispositivos Periféricos</a></li>
-                                <li><a class="dropdown-item" href="#">Accesorios para Computadoras</a></li>
-                                <li><a class="dropdown-item" href="#">Productos de Almacenamiento</a></li>
-                                <li><a class="dropdown-item" href="#">Productos de Limpieza y Mantenimiento</a></li>
+                                <li><a class="dropdown-item" href="${paginationLinkPrefix}products.html" onclick="handleMenuClick('componentes_hardware')">Componentes de Hardware</a></li>
+                                <li><a class="dropdown-item" href="${paginationLinkPrefix}products.html" onclick="handleMenuClick('productos_tecnologicos')">Productos Tecnológicos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -93,4 +74,21 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
 <p>&copy; Todos los derechos reservados al Grupo de Trabajo de Limay</p>
 <p>Integrantes: Juan Bautista Tosi Griedassov, Simon Raul Pero Bellido, Thiago Munguia, Juan Cruz Hardcastle, Valentino Pascuali</p></div>
 `
+}
+
+function handleMenuClick(category) {
+    // Fetch y procesamiento de productos
+    fetch('../../data.json')
+        .then(response => response.json())
+        .then(data => {
+            // Validar que la categoría seleccionada esté presente en el JSON
+            if (data[category]) {
+                var filteredProducts = data[category];
+                // Almacenar los productos filtrados en localStorage
+                localStorage.setItem('filteredProducts', JSON.stringify(filteredProducts));
+            } else {
+                console.error('Categoría no válida o no encontrada en el JSON');
+            }
+        })
+        .catch(error => console.error('Error fetching data:', error));
 }
