@@ -7,9 +7,31 @@
 }
 
 /* Index styles */
+.imgCarrousel {
+    height: 25rem;
+    object-fit: cover;
+}
+
+.carousel {
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-bottom: -1rem;
+    width: 85vw;
+}
+
+.carrouselButton {
+    color: #272829;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .text {
     text-align: center;
-    margin: 3rem;
+    margin: 1rem;
 }
 
 .highlight {
@@ -17,6 +39,45 @@
     background-color: #FFF6E0;
     border-radius: 10px;
 }
+
+/* In sale */
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.oldPrice{
+    text-decoration: line-through;
+    opacity: .5;
+}
+hr{
+    width:95vw;
+    margin: 2rem 0rem;
+}
+.product-card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    background-color: #fff;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Footer */
 
 .nav-footer {
     display: flex;
@@ -29,14 +90,17 @@
         margin: 0rem 1rem;
     }
 }
-.footer-img{
+
+.footer-img {
     object-fit: contain;
-    width: 3rem;
+    width: 2rem;
 }
+
 .footer-link {
     height: 6rem;
     width: 6rem;
 }
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -106,7 +170,7 @@ textarea {
     border-radius: 16px;
 }
 
-.h1About{
+.h1About {
     text-decoration: underline;
     text-decoration-color: #61677A;
 }
