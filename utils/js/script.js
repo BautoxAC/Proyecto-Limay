@@ -60,34 +60,32 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
     `
 
     footer.innerHTML += `<nav class="navbar navbar-expand-lg nav-footer">
-<div class="collapse navbar-collapse container-fluid" id="navbarNav">
     <ul class="navbar-nav list-unstyled">
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.whatsapp.com/">
-                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/whatapp.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.instagram.com">
-                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/logo-insta.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link navbar-brand" href="https://www.facebook.com">
-                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="${utilLinkPrefix}public/imagenes/logo-face.png" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link navbar-brand" href="https://discord.com">
-                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo" width="40" height="32"
-                    class="d-inline-block align-text-top">
+            <a class="nav-link navbar-brand footer-link" href="https://discord.com">
+                <img src="${utilLinkPrefix}public/imagenes/discord.jpeg" alt="Logo"
+                    class="footer-img">
             </a>
         </li>
-    </ul>
-</div>
+        </ul>
 </nav>
 <div class="rights">
 <p>&copy; Todos los derechos reservados al Grupo de Trabajo de Limay</p>
