@@ -12,11 +12,11 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-unstyled">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" role="button" aria-expanded="false">
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="${paginationLinkPrefix}products.html" onclick="handleMenuClick('componentes_hardware')">Componentes de Hardware</a></li>
+                                <li><a class="dropdown-item"  href="${paginationLinkPrefix}products.html" onclick="handleMenuClick('componentes_hardware')">Componentes de Hardware</a></li>
                                 <li><a class="dropdown-item" href="${paginationLinkPrefix}products.html" onclick="handleMenuClick('productos_tecnologicos')">Productos Tecnológicos</a></li>
                             </ul>
                         </li>
@@ -69,14 +69,13 @@ function fillHeader(paginationLinkPrefix, utilLinkPrefix) {
         </ul>
 </nav>
 <div class="rights">
-<p>&copy; Todos los derechos reservados al Grupo de Trabajo de Limay</p>
+<p>&copy Todos los derechos reservados al Grupo de Trabajo de Limay</p>
 <p>Integrantes: Juan Bautista Tosi Griedassov, Simon Raul Pero Bellido, Thiago Munguia, Juan Cruz Hardcastle, Valentino Pascuali</p></div>
 `
 }
-
 function handleMenuClick(category) {
     // Fetch y procesamiento de productos
-    fetch('../../products.json')
+    fetch('./../products.json')
         .then(response => response.json())
         .then(data => {
             // Validar que la categoría seleccionada esté presente en el JSON

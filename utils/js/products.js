@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function addToCart(id) {
-    fetch('../../products.json')
+    fetch('./../products.json')
         .then(response => response.json())
         .then(data => {
             let allProducts = data.productos_tecnologicos.concat(data.componentes_hardware)
