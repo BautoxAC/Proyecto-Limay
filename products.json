@@ -1,12 +1,12 @@
 {
   "productos_tecnologicos": [
     {
-      "name": "Teclado Mecánico Corsair K70",
+      "name": "Teclado mecánico Corsair K70",
       "id": "PT001",
       "category": "Peripheral Devices",
       "price": 129.99,
       "stock": 35,
-      "imgUrl": "teclado_corsair.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product1.png",
       "alt": "Teclado mecánico Corsair K70"
     },
     {
@@ -15,7 +15,7 @@
       "category": "Peripheral Devices",
       "price": 59.99,
       "stock": 40,
-      "imgUrl": "raton_logitech.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product2.png",
       "alt": "Ratón Logitech G502"
     },
     {
@@ -24,7 +24,7 @@
       "category": "Peripheral Devices",
       "price": 249.99,
       "stock": 25,
-      "imgUrl": "monitor_asus.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product3.png",
       "alt": "Monitor ASUS 27 pulgadas"
     },
     {
@@ -33,7 +33,7 @@
       "category": "Computer Accessories",
       "price": 19.99,
       "stock": 50,
-      "imgUrl": "soporte_laptop_amazonbasics.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product4.png",
       "alt": "Soporte para Laptop AmazonBasics"
     },
     {
@@ -42,7 +42,7 @@
       "category": "Computer Accessories",
       "price": 9.99,
       "stock": 100,
-      "imgUrl": "cable_hdmi.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product5.png",
       "alt": "Cable HDMI de alta velocidad"
     },
     {
@@ -51,7 +51,7 @@
       "category": "Computer Accessories",
       "price": 14.99,
       "stock": 30,
-      "imgUrl": "alfombrilla_steelseries.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product6.png",
       "alt": "Alfombrilla para Ratón SteelSeries QcK"
     },
     {
@@ -60,7 +60,7 @@
       "category": "Storage Products",
       "price": 59.99,
       "stock": 20,
-      "imgUrl": "disco_duro_externo_wd.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product7.png",
       "alt": "Disco Duro Externo WD Elements 1TB"
     },
     {
@@ -69,7 +69,7 @@
       "category": "Storage Products",
       "price": 19.99,
       "stock": 50,
-      "imgUrl": "tarjeta_memoria_sandisk.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product8.png",
       "alt": "Tarjeta de Memoria SanDisk 64GB"
     },
     {
@@ -78,7 +78,7 @@
       "category": "Cleaning and Maintenance Products",
       "price": 29.99,
       "stock": 15,
-      "imgUrl": "caja_herramientas_pc.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product9.png",
       "alt": "Caja de herramientas para PC"
     },
     {
@@ -87,7 +87,7 @@
       "category": "Cleaning and Maintenance Products",
       "price": 9.99,
       "stock": 40,
-      "imgUrl": "kit_limpieza_pantallas.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product10.png",
       "alt": "Kit de limpieza para pantallas"
     },
     {
@@ -96,7 +96,7 @@
       "category": "Cleaning and Maintenance Products",
       "price": 14.99,
       "stock": 25,
-      "imgUrl": "aire_comprimido_limpieza.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product11.png",
       "alt": "Aire comprimido para limpieza"
     }
   ],
@@ -107,7 +107,7 @@
       "category": "Processors (CPU)",
       "price": 79.99,
       "stock": 10,
-      "imgUrl": "procesador_i7.jpg",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales1.png",
       "alt": "Procesador Intel Core i7"
     },
     {
@@ -116,7 +116,7 @@
       "category": "Motherboards",
       "price": 99.99,
       "stock": 10,
-      "imgUrl": "../public/imagenes/indexImgs/indexSales3.png",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales3.png",
       "alt": "Tarjeta madre ASUS Prime Z590"
     },
     {
@@ -125,7 +125,7 @@
       "category": "Motherboards",
       "price": 199.99,
       "stock": 15,
-      "imgUrl": "placa_base_asus.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product12.png",
       "alt": "Tarjeta Madre ASUS ROG Strix"
     },
     {
@@ -134,7 +134,7 @@
       "category": "Solid State Drives (SSD)",
       "price": 249.99,
       "stock": 10,
-      "imgUrl": "ssd_samsung_970_evo_plus.jpg",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales6.png",
       "alt": "SSD Samsung 970 EVO Plus 2TB"
     },
     {
@@ -143,7 +143,7 @@
       "category": "Graphics Cards",
       "price": 799.99,
       "stock": 5,
-      "imgUrl": "tarjeta_grafica_rtx3090.jpg",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales5.png",
       "alt": "Tarjeta Gráfica NVIDIA GeForce RTX 3090"
     },
     {
@@ -152,7 +152,7 @@
       "category": "Processors (CPU)",
       "price": 499.99,
       "stock": 8,
-      "imgUrl": "procesador_i9.jpg",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales4.png",
       "alt": "Procesador Intel Core i9"
     },
     {
@@ -161,7 +161,7 @@
       "category": "Graphics Cards",
       "price": 59.99,
       "stock": 5,
-      "imgUrl": "tarjeta_grafica_rtx3080.jpg",
+      "imgUrl": "./../public/imagenes/indexImgs/indexSales2.png",
       "alt": "Tarjeta Gráfica NVIDIA GeForce RTX 3080"
     },
     {
@@ -170,7 +170,7 @@
       "category": "RAM",
       "price": 89.99,
       "stock": 25,
-      "imgUrl": "memoria_ram_corsair.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product13.png",
       "alt": "Memoria RAM Corsair Vengeance 16GB"
     },
     {
@@ -179,7 +179,7 @@
       "category": "Hard Drives (HDD and SSD)",
       "price": 129.99,
       "stock": 12,
-      "imgUrl": "ssd_samsung.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product14.png",
       "alt": "Disco Duro SSD Samsung 500GB"
     },
     {
@@ -188,7 +188,7 @@
       "category": "Power Supplies",
       "price": 79.99,
       "stock": 18,
-      "imgUrl": "fuente_evga.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product15.png",
       "alt": "Fuente de Alimentación EVGA 750W"
     },
     {
@@ -197,7 +197,7 @@
       "category": "Fans and Heatsinks",
       "price": 49.99,
       "stock": 20,
-      "imgUrl": "ventilador_cooler_master.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product16.png",
       "alt": "Ventilador Cooler Master Hyper 212"
     },
     {
@@ -206,7 +206,7 @@
       "category": "Solid State Drives (SSD)",
       "price": 149.99,
       "stock": 8,
-      "imgUrl": "ssd_kingston.jpg",
+      "imgUrl": "./../public/imagenes/productsView/product17.png",
       "alt": "Unidad SSD Kingston 1TB"
     }
   ]

@@ -204,4 +204,8 @@ textarea {
 .h1About {
     text-decoration: underline;
     text-decoration-color: #61677A;
+} 
+/* Products */
+.product-image{
+height: 20rem;
 }
